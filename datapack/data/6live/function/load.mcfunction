@@ -25,7 +25,7 @@ scoreboard objectives add timer dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add kills playerKillCount
 
-scoreboard players set start timer 100
+scoreboard players set start timer 12000
 
 team join 0 @a
 
