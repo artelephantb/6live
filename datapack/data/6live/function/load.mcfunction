@@ -30,6 +30,12 @@ scoreboard players set start timer 12000
 team join 0 @a
 
 gamerule doDaylightCycle false
-time set midnight
+gamerule keepInventory true
+gamerule doImmediateRespawn true
+time set day
+
+kill @a
+gamemode survival @a
+clear @a
 
 tellraw @a {'color':'green','text':'Starting in 5 minutes...'}
